@@ -3,11 +3,22 @@ body {
     background-color: rgb(114, 163, 169);
     display:flex;
     justify-content: center;
-    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
   }
   .nav-bar{ background: rgb(25, 33, 41);
+    width:100vw;
+    margin-bottom: 10px;
   }
-  
+  #home-page{
+    background-image: url("/images/all-cats2.jpg");
+    height: 500px;
+    width:700px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
   .nav-bar a{color: white;
             text-decoration: none;
             font-size: 2em;}
@@ -26,7 +37,55 @@ body {
     height: 500px;
     width: 700px;
   }
+  #atum-img{
+    height: 500px;
+    width: 700px;
+  }
+  #gatinha-img{
+    height: 500px;
+    width: 500px;
+  }
+  #kali-img{
+    height: 500px;
+    width: 400px;
+  }
   #pingo-img{
     height: 500px;
     width: 300px;
   }
+  #atum-list{
+    position:absolute;
+    height: 190px;
+    width:162px;
+    left:500px;
+    top:287px;
+    cursor:pointer;
+  }
+  #gatinha-list{
+    position:absolute;
+    height: 212px;
+    width:146px;
+    left:350px;
+    top:130px;
+    cursor:pointer;
+  }
+  #kali-list{
+    position:absolute;
+    height: 102px;
+    width:178px;
+    left:128px;
+    top:279px;
+    cursor:pointer;
+  }
+  #pingo-list{
+    position:absolute;
+    height: 165px;
+    width:113px;
+    left:500px;
+    top:56px;
+    cursor:pointer;
+  }
+p{
+  justify-content: center;
+}
+a{color:rgb(114, 163, 169)}
