@@ -1,0 +1,32 @@
+body {
+    color: black;
+    background-color: rgb(114, 163, 169);
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+  .nav-bar{ background: rgb(25, 33, 41);
+  }
+  
+  .nav-bar a{color: white;
+            text-decoration: none;
+            font-size: 2em;}
+  
+  .nav-bar ul{display:flex;
+  justify-content:space-around;
+  margin:0;
+  }
+  .nav-bar ul li{
+    list-style: none;
+    }
+  .nav-bar ul li a:hover{
+      color: blueviolet;
+    }
+  img{
+    height: 500px;
+    width: 700px;
+  }
+  #pingo-img{
+    height: 500px;
+    width: 300px;
+  }
